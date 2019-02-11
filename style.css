@@ -2,8 +2,7 @@ body {
     position: relative;
   }
 .fluid-container{
-    padding-left: 20px;
-    padding-right: 20px;
+    
   /* border: 5px solid #ffea00; */
   /* box-shadow: 
   0 0 0 2px #000,
@@ -28,6 +27,8 @@ body {
 }
 #Employment,#Skills,#contact,#Education{
     background-image: linear-gradient(#ccc);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 a:hover{
     color: #ccc;
