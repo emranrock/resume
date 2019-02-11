@@ -1,6 +1,5 @@
 body {
     position: relative;
-    background-color: antiquewhite;
   }
 .container{
     border-left-color: yellow;
@@ -20,4 +19,11 @@ body {
 }
 #Employment,#Skills,#contact,#Education{
     background-image: linear-gradient(#ccc);
+}
+a:hover{
+    color: #ccc;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #707F82;
 }
