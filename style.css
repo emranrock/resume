@@ -1,0 +1,22 @@
+body {
+    position: relative;
+  }
+.container{
+    border-left-color: yellow;
+}
+.nav-link{
+    color:#fff;
+}
+#Summary{
+    padding-left:10px;
+    background-image: url("images/backlit-blogging-business-34153.jpg");
+    opacity: 0.8;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  color:#fff;
+  font-weight: 500;
+}
+#Employment,#Skills,#contact,#Education{
+    background-image: linear-gradient(#ccc);
+}
