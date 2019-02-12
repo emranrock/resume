@@ -1,29 +1,23 @@
-body {
-    position: relative;
-  }
-.fluid-container{
-    
-  /* border: 5px solid #ffea00; */
-  /* box-shadow: 
-  0 0 0 2px #000,
-  0 0 0 3px #999,
-  0 0 0 9px #fa0,
-  0 0 0 10px #666,
-  0 0 0 16px #fd0,
-  0 0 0 18px #000; */
-}
+
 .nav-link{
     color:#fff;
 }
 #Summary{
-    padding-left:10px;
-    background-image: url("images/backlit-blogging-business-34153.jpg");
-    opacity: 0.8;
+    padding:10px;
+    text-align: justify;
+    line-height: 25px;
+    background-image: url("images/white.webp");
+    display: block; 
+    /* opacity: 0.8; */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
   color:#fff;
   font-weight: 500;
+ 
+}
+#Summary blockquote{
+    background-color:#545b629e;
 }
 #Employment,#Skills,#contact,#Education{
     background-image: linear-gradient(#ccc);
@@ -36,4 +30,7 @@ a:hover{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #707F82;
+}
+footer a{
+    color: #545b62;
 }
